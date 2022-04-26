@@ -10,6 +10,7 @@ WHITEBoard DevKitC S3 is a development board based on ESP32 S3 module. It has al
     * 384 KB ROM
     * 320 KB SRAM
     * 16 KB SRAM in RTC
+    * two cores
   * Wi-Fi
     * 802.11b/g/n
     * Bit rate: 802.11n up to 150 Mbps
@@ -147,63 +148,61 @@ WHITEBoard Saola has a two-row header with 44 pins in total. Plus additional 4-p
 
 * First Row
   * 3V3
-  * GPIO0 (BOOT)
-  * GPIO1 (Battery meter)
-  * GPIO2
-  * GPIO3
+  * 3V3
+  * EN
   * GPIO4
   * GPIO5
   * GPIO6
   * GPIO7
-  * GPIO8 (SDA)
-  * GPIO9 (SCL)
-  * GPIO10
-  * GPIO11
-  * GPIO12
-  * GPIO13
-  * GPIO14
   * GPIO15
   * GPIO16
   * GPIO17
+  * GPIO18
+  * GPIO8
+  * GPIO19
+  * GPIO20
+  * GPIO3
+  * GPIO46
+  * GPIO9
+  * GPIO10
+  * GPIO11
+  * GPIO12
   * 5V
   * G
 * Second Row
   * G
-  * R
-  * GPIO46
-  * GPIO45
-  * RX
+  * GPIO1
+  * GPIO2
   * TX
+  * RX
   * GPIO42
   * GPIO41
-  * GPIO40 (usr BTN)
+  * GPIO40
   * GPIO39
   * GPIO38
-  * GPIO37 (MISO)
-  * GPIO36 (SCK)
-  * GPIO35 (MOSI)
-  * GPIO34 (SS)
-  * GPIO33
-  * GPIO26
-  * GPIO21
-  * GPIO20
-  * GPIO19
-  * GPIO18 (RGB LED)
+  * GPIO37
+  * GPIO36
+  * GPIO35
+  * GPIO0
+  * GPIO45
+  * GPIO48
+  * GPIO47
+  * GPIO12
+  * GPIO14
+  * GPIO13
+  * G
+  * G
 
 ## PROS
 
 * LiPo battery
 * RGB LED
 * WiFi
-* Gyro
-* User button
+* Bluetooth
 * OTG and UART micro USB
 * Complete GPIO pinout
 
 ## CONS
-
-* No Bluetooth
-* One Core
 
 ## Dimensions
 
@@ -211,4 +210,4 @@ Dimensions of this board are 28x90mm. The hight is 7mm (without headers).
 
 ## Disclaimer
 
-WHITEBoard Saola is an open-source development board. My small contribution to the community, that gave me so much. Feel free to use and modify as you want. It would be nice to add some credits if you do.
+WHITEBoard DevKitC S3 is an open-source development board. My small contribution to the community, that gave me so much. Feel free to use and modify as you want. It would be nice to add some credits if you do.
