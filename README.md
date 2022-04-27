@@ -103,7 +103,7 @@ Now it is time to upload the CircuitPython firmware to the WHITEBoard DevKitC S3
 
 Here you should use the appropriate COM port and appropriate path to a downloaded file. The name of the file might not be as the one here. A version of the software will change in time to come. After successfully uploaded CircuitPython unplugs DevKitC S3 and plugs it again, this time through the OTG port. DevKitC S3 will mount as a drive CIRCUITPY.
 
-The next steps are to use your favorite CircuitPython editor and program this board. I use Thonny. Select WHITEBoard DevKitC S3 in Thonny by clicking Run->Select Interpreter, and then select Generic CircuitPython and proper Port. The name of a code to works automatically has to be main.py. When done, just Save, press Run, and DevKitC S3 will automatically start running the code.
+The next steps are to use your favorite CircuitPython editor and program this board. I use Thonny. Select WHITEBoard DevKitC S3 in Thonny by clicking Run->Select Interpreter, and then select Generic CircuitPython and proper Port. The name of a code to works automatically has to be code.py. When done, just Save, press Run, and DevKitC S3 will automatically start running the code.
 
 ### MicroPython
 
