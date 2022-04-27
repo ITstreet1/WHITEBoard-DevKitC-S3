@@ -99,7 +99,7 @@ The next step is to erease Flash of Esp32-S3. To do so connect WHITEBoard DevKit
 
 Now it is time to upload the CircuitPython firmware to the WHITEBoard DevKitC S3. To do so check on which COM port is DevKitC S3 (say it is COM7). In prompt type:
 
-*esptool.py --chip esp32s3 --port COM7 --baud 921600 write_flash -z 0x000 C:\{adafruit-circuitpython-espressif_esp32s3_devkitc_1_n8-en_US-7.2.0.bin}*
+*esptool.py --chip esp32s3 --port COM7 --baud 921600 write_flash -z 0x000 C:\{adafruit-circuitpython-espressif_esp32s3_devkitc_1_n8r8-en_GB-7.2.0.bin}*
 
 Here you should use the appropriate COM port and appropriate path to a downloaded file. The name of the file might not be as the one here. A version of the software will change in time to come. After successfully uploaded CircuitPython unplugs DevKitC S3 and plugs it again, this time through the OTG port. DevKitC S3 will mount as a drive CIRCUITPY.
 
