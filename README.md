@@ -73,7 +73,7 @@ There are two upload mode for every port. So, chose to one you use for upload. I
 
 #### OTG PORT
 
-To use this port to upload the sketch, first you might need to install a driver for ESP32-S2. Then, you need to connect the WHITEBoard to a PC in BOOT mode. That can be done by holding the BOOT button while connecting to a PC. If your PC does not recognize a board, you need to install drivers. For that please install Zadig Software, and install the recommended driver (ESP32-S3 (Interface_2)). After that, DevKitC will show up in Device Manager, and can be selected in IDE while choosing a port. Upload goes the same as in the first method. As there is no reset method, you need to press RST so Saola can leave BOOT mode and start working as programmed.
+To use this port to upload the sketch, first you might need to install a driver for ESP32-S2. Then, you need to connect the WHITEBoard to a PC in BOOT mode. That can be done by holding the BOOT button while connecting to a PC. If your PC does not recognize a board, you need to install drivers. For that please install Zadig Software, and install the recommended driver (ESP32-S3 (Interface_2)). After that, DevKitC will show up in Device Manager, and can be selected in IDE while choosing a port. Upload goes the same as in the first method. For upload mode chose: USB-OTG CDC. As there is no reset method, you need to press RST so DevKitC can leave BOOT mode and start working as programmed.
 
 ### CircuitPython
 
