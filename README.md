@@ -60,19 +60,20 @@ WHITEBoard DevKitC S3 is a development board based on ESP32 S3 module. It has al
 
 ## Getting started
 
-WHITEBoard DevKitC S3 is a development board that can be programmed with CircuitPython and MicroPython. Arduino IDE support is just around the corner. 
+WHITEBoard DevKitC S3 is a development board that can be programmed with CircuitPython and MicroPython. Arduino IDE support is available, too.
 
 ### Arduino IDE C/C++
 
--not available at the moment.
 
 #### PROG PORT
 
--not available at the moment.
+For Arduino IDE, first you have to add ESP32-S3 support. This can be done by adding V2.0 Boards support: -https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_dev_index.json in File->Preferences->URL and then install through board manager (or update to version 2.0.3). When done, just select ESP32S3 Dev Module in Boards, proper port and you are good to go. Here you can find some example sketches that will work with hardware on-board. They are not in a form of a library. By plugging into a computer through a PROG micro USB port, the upload will be done without the need to press BOOT or RST buttons.
+
+There are two upload mode for every port. So, chose to one you use for upload. In this case: UART0/Hardware CDC. Flash size should be set to 8MB and for PSRAM select QSPI PSRAM.
 
 #### OTG PORT
 
--not available at the moment.
+To use this port to upload the sketch, first you might need to install a driver for ESP32-S2. Then, you need to connect the WHITEBoard to a PC in BOOT mode. That can be done by holding the BOOT button while connecting to a PC. If your PC does not recognize a board, you need to install drivers. For that please install Zadig Software, and install the recommended driver (ESP32-S3 (Interface_2)). After that, DevKitC will show up in Device Manager, and can be selected in IDE while choosing a port. Upload goes the same as in the first method. As there is no reset method, you need to press RST so Saola can leave BOOT mode and start working as programmed.
 
 ### CircuitPython
 
